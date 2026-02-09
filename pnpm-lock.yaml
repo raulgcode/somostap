@@ -30,6 +30,9 @@ importers:
         specifier: 7.12.0
         version: 7.12.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
+      '@cloudflare/workers-types':
+        specifier: ^4.20260207.0
+        version: 4.20260207.0
       '@react-router/dev':
         specifier: 7.12.0
         version: 7.12.0(@react-router/serve@7.12.0(react-router@7.12.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3))(@types/node@22.19.10)(jiti@2.6.1)(lightningcss@1.30.2)(react-router@7.12.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)(vite@7.3.1(@types/node@22.19.10)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -188,6 +191,9 @@ packages:
   '@babel/types@7.29.0':
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
+
+  '@cloudflare/workers-types@4.20260207.0':
+    resolution: {integrity: sha512-PSxgnAOK0EtTytlY7/+gJcsQJYg0Qo7KlOMSC/wiBE+pBqKjuKdd1ZgM+NvpPNqZAjWV5jqAMTTNYEmgk27gYw==}
 
   '@esbuild/aix-ppc64@0.27.3':
     resolution: {integrity: sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7qxb7l8dg==}
@@ -1565,6 +1571,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
+
+  '@cloudflare/workers-types@4.20260207.0': {}
 
   '@esbuild/aix-ppc64@0.27.3':
     optional: true
