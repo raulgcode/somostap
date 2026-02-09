@@ -57,14 +57,14 @@ export default function Terms() {
           </h2>
           <p className="text-gray-700 mb-3">
             TAP - Talent Access Portal proporciona una plataforma de software
-            como servicio (SaaS) que se integra con Softland para facilitar la
-            gestión de recursos humanos, incluyendo pero no limitado a:
+            como servicio (SaaS) que mejora los procesos de peticiones de
+            recursos humanos, incluyendo pero no limitado a:
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
             <li>Gestión de solicitudes de ausencias y vacaciones</li>
             <li>Generación y administración de constancias laborales</li>
             <li>Flujos de aprobación personalizables</li>
-            <li>Integración con sistemas Softland</li>
+            <li>Integración con sistemas de gestión empresarial</li>
             <li>Reportes y análisis de recursos humanos</li>
             <li>Portal de autoservicio para empleados</li>
           </ul>

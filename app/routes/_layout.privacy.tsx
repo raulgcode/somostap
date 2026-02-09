@@ -90,7 +90,7 @@ export default function Privacy() {
             2.3 Información de Terceros
           </h3>
           <p className="text-gray-700">
-            Podemos recibir información de sistemas integrados como Softland,
+            Podemos recibir información de sistemas de gestión empresarial integrados,
             incluyendo datos de nómina, estructura organizacional y registros de
             empleados necesarios para el funcionamiento del servicio.
           </p>

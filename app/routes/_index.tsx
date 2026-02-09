@@ -3,11 +3,11 @@ import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "TAP - Talent Access Portal | Soluciones RRHH para Softland" },
+    { title: "TAP - Talent Access Portal | Soluciones Modernas de RRHH" },
     {
       name: "description",
       content:
-        "Moderniza tu gestión de recursos humanos con TAP. Solicitudes de ausencias, constancias y flujos de aprobación simplificados para Softland.",
+        "Moderniza tu gestión de recursos humanos con TAP. Solicitudes de ausencias, constancias y flujos de aprobación simplificados para tu empresa.",
     },
   ];
 }
@@ -54,7 +54,7 @@ export default function Home() {
             Moderniza tu gestión de <span className="text-blue-600">RRHH</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Conecta con Softland y lleva tus procesos de recursos humanos al
+            Optimiza y lleva tus procesos de recursos humanos al
             siguiente nivel. Solicitudes de ausencias, constancias y
             aprobaciones más simples que nunca.
           </p>
@@ -90,10 +90,10 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                Integración con Softland
+                Integración con tu Sistema
               </h3>
               <p className="text-gray-600">
-                Conectividad perfecta con tu sistema Softland existente. No más
+                Conectividad perfecta con tu sistema de gestión existente. No más
                 duplicación de datos ni procesos manuales.
               </p>
             </div>
@@ -229,10 +229,10 @@ export default function Home() {
         <section className="bg-blue-600 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Mejora el Portal de Softland
+              Mejora tu Portal de RRHH
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-              El portal estándar de Softland no fue diseñado para la gestión
+              Los portales tradicionales no fueron diseñados para la gestión
               moderna de RRHH. TAP complementa y mejora tu experiencia con una
               interfaz amigable, procesos optimizados y la funcionalidad que tus
               empleados necesitan.
